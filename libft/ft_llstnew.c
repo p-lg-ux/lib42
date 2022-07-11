@@ -6,7 +6,7 @@
 /*   By: pgros <pgros@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/11 14:23:09 by pgros             #+#    #+#             */
-/*   Updated: 2022/07/11 15:06:33 by pgros            ###   ########.fr       */
+/*   Updated: 2022/07/11 16:58:52 by pgros            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ t_llist	*ft_llstnew(void *content)
 {
 	t_llist	*new_node;
 
-	new_node = malloc(sizeof(t_list));
+	new_node = malloc(sizeof(t_llist));
 	if (!new_node)
 		return (new_node);
 	new_node->content = content;

@@ -6,9 +6,11 @@
 /*   By: pgros <pgros@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/11 14:53:37 by pgros             #+#    #+#             */
-/*   Updated: 2022/07/11 15:05:56 by pgros            ###   ########.fr       */
+/*   Updated: 2022/07/11 16:02:45 by pgros            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	ft_llstdelone(t_llist *lst, void (*del)(void *))
 {
