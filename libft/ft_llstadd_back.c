@@ -6,7 +6,7 @@
 /*   By: pgros <pgros@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/11 14:37:31 by pgros             #+#    #+#             */
-/*   Updated: 2022/07/11 15:05:45 by pgros            ###   ########.fr       */
+/*   Updated: 2022/07/11 19:24:41 by pgros            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,5 +26,6 @@ void	ft_llstadd_back(t_llist **lst, t_llist *new)
 	}
 	last->next = new;
 	new->previous = last;
+	new->next = NULL;
 	return ;
 }
