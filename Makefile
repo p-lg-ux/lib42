@@ -6,7 +6,7 @@
 #    By: pgros <pgros@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/04 16:14:26 by pgros             #+#    #+#              #
-#    Updated: 2022/07/04 12:03:28 by pgros            ###   ########.fr        #
+#    Updated: 2022/07/11 15:10:07 by pgros            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,7 +54,14 @@ SRC_LIBFT = ft_isalnum.c \
 			ft_lstdelone_bonus.c \
 			ft_lstclear_bonus.c \
 			ft_lstiter_bonus.c \
-			ft_lstmap_bonus.c
+			ft_lstmap_bonus.c \
+			ft_llstnew.c \
+			ft_llstadd_back.c \
+			ft_llstadd_front.c \
+			ft_llstdelone.c \
+			ft_llstlast.c \
+			ft_llstclear.c \
+			ft_llstsize.c
 
 SRC_FTPRINTF = ft_printf.c\
 		read_format.c\

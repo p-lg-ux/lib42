@@ -6,7 +6,7 @@
 /*   By: pgros <pgros@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 14:10:06 by pgros             #+#    #+#             */
-/*   Updated: 2022/05/11 10:22:37 by pgros            ###   ########.fr       */
+/*   Updated: 2022/07/11 14:37:01 by pgros            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,5 +67,20 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+
+typedef struct s_llist
+{
+	void			*content;
+	struct s_llist	*next;
+	struct s_llist	*previous;
+}	t_llist;
+
+t_llist	*ft_llstnew(void *content);
+void	ft_llstadd_front(t_llist **lst, t_llist *new);
+void	ft_llstadd_back(t_llist **lst, t_llist *new);
+void	ft_llstdelone(t_llist *lst, void (*del)(void *));
+void	ft_llstclear(t_llist **lst, void (*del)(void *));
+int		ft_llstsize(t_llist *lst);
+t_llist	*ft_llstlast(t_llist *lst);
 
 #endif
