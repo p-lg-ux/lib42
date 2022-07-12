@@ -6,7 +6,7 @@
 #    By: pgros <pgros@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/04 16:14:26 by pgros             #+#    #+#              #
-#    Updated: 2022/07/11 15:10:07 by pgros            ###   ########.fr        #
+#    Updated: 2022/07/12 16:49:01 by pgros            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,6 +33,7 @@ SRC_LIBFT = ft_isalnum.c \
 			ft_memcmp.c \
 			ft_strnstr.c \
 			ft_atoi.c \
+			ft_atol.c \
 			ft_calloc.c \
 			ft_strdup.c \
 			ft_substr.c \
