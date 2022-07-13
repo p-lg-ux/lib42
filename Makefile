@@ -6,7 +6,7 @@
 #    By: pgros <pgros@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/04 16:14:26 by pgros             #+#    #+#              #
-#    Updated: 2022/07/13 15:36:42 by pgros            ###   ########.fr        #
+#    Updated: 2022/07/13 17:05:15 by pgros            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -68,7 +68,8 @@ SRC_LIBFT = ft_isalnum.c \
 			ft_loopllstlast.c \
 			ft_loopllstsize.c \
 			ft_loopllstadd_front.c \
-			ft_loopllstadd_back.c
+			ft_loopllstadd_back.c \
+			ft_loopllstremove.c
 
 SRC_FTPRINTF = ft_printf.c\
 		read_format.c\
