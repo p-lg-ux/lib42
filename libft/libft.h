@@ -6,7 +6,7 @@
 /*   By: pgros <pgros@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 14:10:06 by pgros             #+#    #+#             */
-/*   Updated: 2022/07/12 16:51:55 by pgros            ###   ########.fr       */
+/*   Updated: 2022/07/13 15:35:53 by pgros            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,5 +83,12 @@ void	ft_llstdelone(t_llist *lst, void (*del)(void *));
 void	ft_llstclear(t_llist **lst, void (*del)(void *));
 int		ft_llstsize(t_llist *lst);
 t_llist	*ft_llstlast(t_llist *lst);
+
+t_llist	*ft_loopllstnew(void *content);
+void	ft_loopllstclear(t_llist **lst, void (*del)(void *));
+t_llist	*ft_loopllstlast(t_llist *lst);
+int		ft_loopllstsize(t_llist *lst);
+void	ft_loopllstadd_front(t_llist **lst, t_llist *new);
+void	ft_loopllstadd_back(t_llist **lst, t_llist *new);
 
 #endif
