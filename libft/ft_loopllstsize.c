@@ -6,7 +6,7 @@
 /*   By: pgros <pgros@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/11 15:03:10 by pgros             #+#    #+#             */
-/*   Updated: 2022/07/13 15:16:54 by pgros            ###   ########.fr       */
+/*   Updated: 2022/07/13 15:41:29 by pgros            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	ft_loopllstsize(t_llist *lst)
 {
 	t_llist	*head;
-	int	nb_nodes;
+	int		nb_nodes;
 
 	if (lst == NULL)
 		return (0);
